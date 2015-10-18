@@ -13,6 +13,7 @@
 		6FE6FAC91BA34E6A000A638F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE6FAC81BA34E6A000A638F /* Images.xcassets */; };
 		6FE6FACC1BA34E6B000A638F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE6FACA1BA34E6B000A638F /* LaunchScreen.xib */; };
 		6FE6FAD81BA34E6B000A638F /* HMW1ExpendCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6FAD71BA34E6B000A638F /* HMW1ExpendCalcTests.swift */; };
+		6FE6FAE21BA35BD9000A638F /* expendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6FAE11BA35BD9000A638F /* expendModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6FE6FAD11BA34E6B000A638F /* HMW1ExpendCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMW1ExpendCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE6FAD61BA34E6B000A638F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FE6FAD71BA34E6B000A638F /* HMW1ExpendCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMW1ExpendCalcTests.swift; sourceTree = "<group>"; };
+		6FE6FAE11BA35BD9000A638F /* expendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = expendModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				6FE6FAC11BA34E6A000A638F /* AppDelegate.swift */,
 				6FE6FAC31BA34E6A000A638F /* ViewController.swift */,
 				6FE6FAC51BA34E6A000A638F /* Main.storyboard */,
+				6FE6FAE11BA35BD9000A638F /* expendModel.swift */,
 				6FE6FAC81BA34E6A000A638F /* Images.xcassets */,
 				6FE6FACA1BA34E6B000A638F /* LaunchScreen.xib */,
 				6FE6FABF1BA34E6A000A638F /* Supporting Files */,
@@ -156,6 +159,7 @@
 		6FE6FAB41BA34E6A000A638F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Michael Zarate";
 				TargetAttributes = {
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FE6FAC41BA34E6A000A638F /* ViewController.swift in Sources */,
+				6FE6FAE21BA35BD9000A638F /* expendModel.swift in Sources */,
 				6FE6FAC21BA34E6A000A638F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +348,7 @@
 				INFOPLIST_FILE = HMW1ExpendCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -353,6 +359,7 @@
 				INFOPLIST_FILE = HMW1ExpendCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -409,6 +416,7 @@
 				6FE6FADD1BA34E6B000A638F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE6FADE1BA34E6B000A638F /* Build configuration list for PBXNativeTarget "HMW1ExpendCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +425,7 @@
 				6FE6FAE01BA34E6B000A638F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
